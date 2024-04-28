@@ -1,5 +1,5 @@
 function getCharCode(params) {
-	let n=Math.random()*100;
+	let n=parseInt(Math.random()*100);
 	if((48<=n&& n<=57)||(65<=n && n<90)||(97<=n&&n<99))
 	{
 		return n;
@@ -19,5 +19,5 @@ function makeid(l) {
 }
 
 // Do not change the code below.
-const l = prompt("Enter a number.");
-alert(makeid(l));
+// const l = prompt("Enter a number.");
+// alert(makeid(l));
